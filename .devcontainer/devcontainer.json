@@ -1,7 +1,7 @@
 {
   "name": "Lovebirds",
   "image": "mcr.microsoft.com/devcontainers/python:1-3.13",
-  "postCreateCommand": "pip install poetry && poetry install && sudo apt-get update && sudo apt-get install -y gnupg pandoc",
+  "postCreateCommand": "pip install poetry && poetry install && sudo apt-get update && sudo apt-get install -y gnupg pandoc && curl -fsSL https://claude.ai/install.sh | bash",
   "customizations": {
     "vscode": {
       "extensions": [
